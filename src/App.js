@@ -6,8 +6,9 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="">
-      <header className="">
+    <div className="bg-gradient-to-b from-red-500 to-black bg-scroll bg-contain 
+    overflow-auto m-auto h-screen w-screen">
+      <header className="bg-gradient-to-br from-black to-gray-700">
         <NavBar />
       </header>
       <Switch>

@@ -4,7 +4,7 @@
 function Home () {
     return (
         <div>
-            <h1>This is Home</h1>
+            <p>Hi! My name is Evan Rosson and I am a Software Engineer specializing in web development.</p>
         </div>
     )
 }
