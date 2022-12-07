@@ -3,7 +3,7 @@
 
 function About () {
     return (
-        <div className="text-white">
+        <div className="text-white text-center">
             <h1>I am a full stack developer graduate from Flatiron School. Previously, I graduated from the University of Louisiana at Lafayette with a bachelor's degree in Mechanical Engineering.</h1>
             <br></br>
             <h1>In my free time, I am mostly on the computer. I have always had an interest in computers (how they worked, how they were put together). The most interesting things to me during my mechanical engineering degree were the 3D modeling design classes as well as the Arduino coding we created for a robotics class. I decided it was best to delve into the world of coding and learn the many facets of the tech world that I have always been interested in.</h1> 
