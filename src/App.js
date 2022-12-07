@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -12,17 +13,20 @@ function App() {
         <NavBar />
       </header>
       <Switch>
-        <Route exact path='/'>
+        <Route exact path = '/'>
           <Home />
         </Route>
-        <Route path='/projects'>
+        <Route path = '/projects'>
           <Projects />
         </Route>
-        <Route path='/me'>
+        <Route path = '/me'>
           <About />
         </Route>
+        <Route path = '/contacts'>
+          <Contact />
+        </Route>
       </Switch>
-      <footer class="text-center bg-gray-900 text-white">
+      {/* <footer class="text-center bg-gray-900 text-white">
         <div class="container px-6 pt-6 pb-1">
           <div class="flex justify-center mb-6">
             <a href="https://www.linkedin.com/in/evan-rosson/" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
@@ -72,7 +76,7 @@ function App() {
             </a>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }

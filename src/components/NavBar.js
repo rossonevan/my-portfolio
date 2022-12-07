@@ -12,6 +12,7 @@ function NavBar () {
                     <div className="items-center justify-end flex-1 hidden space-x-4 sm:flex">
                         <NavLink exact to='/projects' activeClassName='bg-red-900' className="inline-block hover:border-gray-200 rounded text-white hover:text-black hover:bg-red-600 py-1 px-3">Projects</NavLink>
                         <NavLink exact to='/me' activeClassName='bg-red-900' className="inline-block hover:border-gray-200 rounded text-white hover:text-black hover:bg-red-600 py-1 px-3">About Me</NavLink>
+                        <NavLink exact to='/contacts' activeClassName='bg-red-900' className="inline-block hover:border-gray-200 rounded text-white hover:text-black hover:bg-red-600 py-1 px-3">Contacts</NavLink>
                     </div>
                 </div> 
             </div>
