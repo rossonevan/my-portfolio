@@ -2,9 +2,14 @@
 
 function Contact () {
     return (
-        <div>
-            <h1>Email: rossonevan7281@gmail.com</h1>
-            <h1>Cell: 337-288-2339</h1>
+        <div className="text-center">
+                <h1>Contact Me!</h1>
+                <p>
+                    Email: <a href="mailto:rossonevan7281@gmail.com">rossonevan7281@gmail.com</a>
+                </p>
+                <p>
+                    Cell: <a href="tel:3372882339">337-288-2339</a>
+                </p>
         </div>
     )
 }
