@@ -7,9 +7,9 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="bg-gradient-to-b from-red-500 to-black bg-scroll bg-contain 
+    <div className="bg-gradient-to-b from-gray-800 to-black bg-scroll bg-contain 
     overflow-auto m-auto h-screen w-screen">
-      <header className="bg-gradient-to-br from-black to-gray-700">
+      <header className="bg-gradient-to-br from-black to-blue-700">
         <NavBar />
       </header>
       <Switch>

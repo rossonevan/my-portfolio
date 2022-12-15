@@ -7,8 +7,9 @@ function NavBar () {
             <div className="flex items-center justify-between space-x-4 lg:space-x-10">
                 <div className="flex lg:w-0 lg:flex-1">
                     <Link to='/' className='text-4xl font-bold text-center text-red font-style'>
-                        <h1 className='text-white'>Home</h1>
+                        <h1 className='text-white'>Evan Rosson</h1>
                     </Link>
+                    <h4 className='text-white ml-10'>Software Engineer</h4>
                     <div className="items-center justify-end flex-1 hidden space-x-4 sm:flex">
                         <NavLink exact to='/projects' activeClassName='bg-red-900' className="inline-block hover:border-gray-200 rounded text-white hover:text-black hover:bg-red-600 py-1 px-3">Projects</NavLink>
                         <NavLink exact to='/me' activeClassName='bg-red-900' className="inline-block hover:border-gray-200 rounded text-white hover:text-black hover:bg-red-600 py-1 px-3">About Me</NavLink>
