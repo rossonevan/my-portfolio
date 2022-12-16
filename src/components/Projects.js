@@ -17,7 +17,7 @@ function Projects () {
 
     return (
         <div className='text-white'>
-            <h1 className="text-center text-xl font-bold">Check Out My Projects!</h1>
+            <h1 className="text-center text-xl font-bold mt-3">Check Out My Projects!</h1>
             <div className="grid grid-cols-3 gap-1 ml-6 mr-6">
                 <div className="m-4">
                     <div className="flow-root">
