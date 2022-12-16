@@ -1,4 +1,5 @@
 import { useState } from "react";
+import resume from '../assets/resume.pdf';
 
 
 function Projects () {
@@ -29,8 +30,7 @@ function Projects () {
                         </div>
                     </div>
                     <img className="h-auto hover:opacity-80 hover:scale-95 ease-in-out duration-150" src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1517521303/180131-wondrich-bad-cocktail-tease_wghhv8" alt="cocktail haven" />
-                    <p className="text-center mt-4">A free to play games review application that allows the user to view reviews of free to play games and upload/edit/delete
-                    their own reviews to each game.</p>
+                    <p className="text-center mt-4">An application that provides the user with six random cocktails with instructions on how to make them and also allows the user to upload their own cocktails with instructions.</p>
                     <br></br>
                     <button onClick={() => setProject1Details(!project1Details)} className='mb-2'>Project Details</button>
                     {project1Details ? <p> Formalized vanilla JavaScript code giving the application functionality and user interaction through event listeners. Utilized a public API database that was used to produce six random cocktails on every page load of the application. Designed HTML that provided the layout of the web page. Developed CSS providing the user with easier navigation of the web page.</p>
@@ -62,17 +62,24 @@ function Projects () {
                         </div>
                         <img className="h-auto hover:opacity-80 hover:scale-95 ease-in-out duration-150" src="https://pcbuildsonabudget.com/wp-content/uploads/2018/09/free-to-play-gaming.jpg" alt="worth-to-play" />
                     </div>
-                    <p className="text-center mt-4">An application that provides the user with six random cocktails with instructions on how to make them and also allows the user to upload their own cocktails with instructions.</p>
+                    <p className="text-center mt-4">A free to play games review application that allows the user to view reviews of free to play games and upload/edit/delete
+                    their own reviews to each game.</p>
                     <br></br>
                     <button onClick={() => setProject3Details(!project3Details)} className='mb-2'>Project Details</button>
                     {project3Details ? <p> Utilized an external API in JSON through Ruby on Rails, generating a database of information for the web page. Incorporated authorization in order for the user to sign up and login to the application to keep track of their reviews. Crafted the front end using React that utilizes the database and is displayed for and interacted with the user. Designed CSS in order for the user to have easy and clear navigation of the web page.</p>
                     : null}
                 </div>
             </div>
-            <br></br>
             <div className="mt-36 text-center">
                 <h1 className="text-xl font-bold underline">Technical Skills</h1>
                 {skillsList}
+            </div>
+            <div className="text-center pb-10 pt-10">
+                <h1 className='text-white mb-3'>My Resume</h1>
+                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                    <a href={resume}>Download</a>
+                </button>
             </div>
         </div>
     )

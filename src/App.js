@@ -1,5 +1,5 @@
-import {Switch, Route} from 'react-router-dom';
-import NavBar from './components/NavBar';
+// import {Switch, Route} from 'react-router-dom';
+// import NavBar from './components/NavBar';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -10,22 +10,12 @@ function App() {
     <div className="bg-gradient-to-b from-gray-800 to-black bg-scroll bg-contain 
     overflow-auto m-auto h-screen w-screen">
       <header className="bg-gradient-to-br from-black to-blue-700">
-        <NavBar />
+
       </header>
-      <Switch>
-        <Route exact path = '/'>
           <Home />
-        </Route>
-        <Route path = '/projects'>
-          <Projects />
-        </Route>
-        <Route path = '/me'>
           <About />
-        </Route>
-        <Route path = '/contacts'>
+          <Projects />
           <Contact />
-        </Route>
-      </Switch>
       {/* <footer class="text-center bg-gray-900 text-white">
         <div class="container px-6 pt-6 pb-1">
           <div class="flex justify-center mb-6">
