@@ -23,10 +23,10 @@ function Projects () {
                 <div className="m-4">
                     <div className="flow-root">
                         <h1 className="mb-1 text-xl float-left">Cocktail Haven</h1>
-                        <div className="text-blue-400 underline float-right flex">
-                            <a href="https://github.com/rossonevan/cocktailhaven" className="mr-1">Github</a>
+                        <div className="underline float-right flex">
+                            <a href="https://github.com/rossonevan/cocktailhaven" className="mr-1 text-blue-400 hover:text-blue-700">Github</a>
                             <p> | </p>
-                            <a href="https://www.loom.com/share/0fd20c7321834f8c88bdc06049bbc2a8" className="ml-1">Demo</a>
+                            <a href="https://www.loom.com/share/0fd20c7321834f8c88bdc06049bbc2a8" className="ml-1 text-blue-400 hover:text-blue-700">Demo</a>
                         </div>
                     </div>
                     <img className="h-auto hover:opacity-80 hover:scale-95 ease-in-out duration-150" src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1517521303/180131-wondrich-bad-cocktail-tease_wghhv8" alt="cocktail haven" />
@@ -39,10 +39,10 @@ function Projects () {
                 <div className="m-4">
                     <div className="flow-root">
                         <h1 className="mb-1 text-xl float-left">Guitar Heroes</h1>
-                        <div className="text-blue-400 underline float-right flex">
-                            <a href="https://github.com/xauvk/guitar-heroes" className="mr-1">Github</a>
+                        <div className="underline float-right flex">
+                            <a href="https://github.com/xauvk/guitar-heroes" className="mr-1 text-blue-400 hover:text-blue-700">Github</a>
                             <p> | </p>
-                            <a href="https://www.loom.com/share/a81b774e25334ce693f07ec5687dd18f" className="ml-1">Demo</a>
+                            <a href="https://www.loom.com/share/a81b774e25334ce693f07ec5687dd18f" className="ml-1 text-blue-400 hover:text-blue-700">Demo</a>
                         </div>
                     </div>
                     <img className="h-auto hover:opacity-80 hover:scale-95 ease-in-out duration-150" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Acoustic_guitars_in_store_20180625.jpg/800px-Acoustic_guitars_in_store_20180625.jpg" alt="guitar heroes" />
@@ -55,10 +55,10 @@ function Projects () {
                 <div className="m-4">
                     <div className="flow-root">
                         <h1 className="text-center mb-1 text-xl float-left">Worth-to-Play</h1>
-                        <div className="text-blue-400 underline float-right flex">
-                            <a href="https://github.com/rossonevan/worth-to-play" className="mr-1">Github</a>
+                        <div className="underline float-right flex">
+                            <a href="https://github.com/rossonevan/worth-to-play" className="mr-1 text-blue-400 hover:text-blue-700">Github</a>
                             <p> | </p>
-                            <a href="https://www.loom.com/share/e6db69f9b0564e01814c61e129386b67" className="ml-1">Demo</a>
+                            <a href="https://www.loom.com/share/e6db69f9b0564e01814c61e129386b67" className="ml-1 text-blue-400 hover:text-blue-700">Demo</a>
                         </div>
                         <img className="h-auto hover:opacity-80 hover:scale-95 ease-in-out duration-150" src="https://pcbuildsonabudget.com/wp-content/uploads/2018/09/free-to-play-gaming.jpg" alt="worth-to-play" />
                     </div>

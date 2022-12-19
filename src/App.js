@@ -1,5 +1,5 @@
 // import {Switch, Route} from 'react-router-dom';
-// import NavBar from './components/NavBar';
+import NavBar from './components/NavBar';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="bg-gradient-to-b from-gray-800 to-black bg-scroll bg-contain 
     overflow-auto m-auto h-screen w-screen">
-      <header className="bg-gradient-to-br from-black to-blue-700">
-
+      <header className="">
+      <NavBar />
       </header>
           <Home />
           <About />
